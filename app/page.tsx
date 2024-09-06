@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { Users, Rocket, Zap, ArrowRight, Anvil, User } from "lucide-react";
 import { featuresContent, howToWorkInfo } from "./mock/features";
+import NavBarLandingPage from "./sections/navbar-landing";
 export default function Home() {
   return (
     <>
+        <NavBarLandingPage/>
       <main className="flex min-h-screen flex-col ">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 flex items-center justify-center">
           <div className="container px-4 md:px-6 ">
