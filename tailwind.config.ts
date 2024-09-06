@@ -9,6 +9,10 @@ const config: Config = {
 
   theme: {
     extend: {
+      screens:{
+        'xs': '390px', // Breakpoint para pantallas menores a 320px
+      },
+      
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
